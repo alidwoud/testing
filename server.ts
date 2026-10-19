@@ -31,7 +31,7 @@ async function startServer() {
   }
 
   app.listen(port, '0.0.0.0', () => {
-    console.log(`MAXIM FORGE server listening on port ${port} (mode: ${isProduction ? 'production' : 'development'})`);
+    console.log(`FORGE Jobs server listening on port ${port} (mode: ${isProduction ? 'production' : 'development'})`);
   });
 }
 

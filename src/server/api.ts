@@ -146,7 +146,12 @@ export function formatProject(p: any) {
 apiRouter.get('/projects', async (req: AuthRequest, res: Response) => {
   try {
     let projs = await db.select().from(projects);
-    if (projs.length <= 1) {
+    if (projs.length === 0) {
+      await seedDatabase();
+      await ensureTablesAndMultiProjectSeed();
+      await seedWorkforceData();
+      projs = await db.select().from(projects);
+    } else if (projs.length <= 1) {
       await ensureTablesAndMultiProjectSeed();
       await seedWorkforceData();
       projs = await db.select().from(projects);
