@@ -150,9 +150,9 @@ export const JobLayout: React.FC = () => {
                 </div>
                 <div>
                   <div className="font-extrabold text-sm text-slate-900 tracking-tight leading-tight">
-                    FORGE <span className="text-blue-600 font-semibold">Jobs</span>
+                    MAXIM <span className="text-blue-600 font-semibold">Jobs</span>
                   </div>
-                  <div className="text-[10px] text-slate-500 font-medium">Field Operations</div>
+                  <div className="text-[10px] text-slate-500 font-medium">Job Management</div>
                 </div>
               </div>
             ) : (

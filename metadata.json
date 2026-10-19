@@ -1,6 +1,6 @@
 {
-  "name": "MAXIM FORGE",
-  "description": "MAXIM FORGE - Construction Delivery & Quality platform for site trades, equipment, cables, testing, and ITR workflows.",
+  "name": "MAXIM",
+  "description": "MAXIM - High-performance field service, trade dispatch, work orders, and job operations platform.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

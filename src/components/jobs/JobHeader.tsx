@@ -71,10 +71,10 @@ export const JobHeader: React.FC = () => {
           </div>
           <div>
             <div className="font-bold text-base text-slate-900 tracking-tight leading-tight flex items-center gap-2">
-              FORGE <span className="text-blue-600 font-semibold text-sm">Jobs</span>
+              MAXIM <span className="text-blue-600 font-semibold text-sm">Jobs</span>
             </div>
             <div className="text-[11px] text-slate-600 font-medium tracking-wide">
-              Field Operations & Dispatch
+              Field Operations & Job Management
             </div>
           </div>
         </div>
